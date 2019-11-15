@@ -38,9 +38,29 @@ public class Simulator {
         sardineContructor = new Sardine();
         sharkContructor = new Shark();
 
-        field.place(planktonContructor, 10,10);
-        field.place(sardineContructor, 20,20);
-        field.place(sharkContructor, 30,30);
+        //field.place(planktonContructor, 10,10);
+        //field.place(sardineContructor, 20,20);
+        //field.place(sharkContructor, 30,30);
+
+        for(int row = 0; row<field.getWidth(); row++){
+            for(int column = 0; column<field.getDepth(); column++){
+                Random rand = RandomGenerator.getRandom();
+                double randomNumber = rand.nextDouble();
+                if(randomNumber<0.05){
+                    field.place(sharkContructor, row, column);
+                }
+
+                else if(randomNumber>0.05 && randomNumber<=0.1){
+                    field.place(sardineContructor, row,column);
+                }
+
+                else if(randomNumber>0.1 && randomNumber<=0.7) {
+                    field.place(planktonContructor, row, column);
+                }
+
+                //Up until this point was lab 05 tasks
+            }
+        }
 
         
 
