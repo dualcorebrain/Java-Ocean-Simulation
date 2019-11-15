@@ -1,12 +1,37 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="676c346b-afe0-4ee0-91ac-c86059ed00aa" name="Default Changelist" comment="" />
+    <list default="true" id="676c346b-afe0-4ee0-91ac-c86059ed00aa" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Unit 5 Ocean Lab task/META-INF/Unit 5 Ocean Lab task.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Unit 5 Ocean Lab task/seaSimulations/Counter.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Unit 5 Ocean Lab task/seaSimulations/Counter.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Unit 5 Ocean Lab task/seaSimulations/Creature.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Unit 5 Ocean Lab task/seaSimulations/Creature.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Unit 5 Ocean Lab task/seaSimulations/Field.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Unit 5 Ocean Lab task/seaSimulations/Field.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Unit 5 Ocean Lab task/seaSimulations/FieldStats.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Unit 5 Ocean Lab task/seaSimulations/FieldStats.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Unit 5 Ocean Lab task/seaSimulations/Fish.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Unit 5 Ocean Lab task/seaSimulations/Fish.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Unit 5 Ocean Lab task/seaSimulations/LabelledTextArea.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Unit 5 Ocean Lab task/seaSimulations/LabelledTextArea.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Unit 5 Ocean Lab task/seaSimulations/Location.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Unit 5 Ocean Lab task/seaSimulations/Location.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Unit 5 Ocean Lab task/seaSimulations/Plankton.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Unit 5 Ocean Lab task/seaSimulations/Plankton.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Unit 5 Ocean Lab task/seaSimulations/RandomGenerator.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Unit 5 Ocean Lab task/seaSimulations/RandomGenerator.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Unit 5 Ocean Lab task/seaSimulations/Sardine.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Unit 5 Ocean Lab task/seaSimulations/Sardine.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Unit 5 Ocean Lab task/seaSimulations/Shark.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Unit 5 Ocean Lab task/seaSimulations/Shark.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Unit 5 Ocean Lab task/seaSimulations/Simulator.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Unit 5 Ocean Lab task/seaSimulations/Simulator.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Unit 5 Ocean Lab task/seaSimulations/SimulatorView$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Unit 5 Ocean Lab task/seaSimulations/SimulatorView$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Unit 5 Ocean Lab task/seaSimulations/SimulatorView$FieldView.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Unit 5 Ocean Lab task/seaSimulations/SimulatorView$FieldView.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Unit 5 Ocean Lab task/seaSimulations/SimulatorView.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Unit 5 Ocean Lab task/seaSimulations/SimulatorView.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/seaSimulations/Simulator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/seaSimulations/Simulator.java" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeStyleSettingsInfer">
+    <option name="done" value="true" />
   </component>
   <component name="DatabaseView">
     <option name="SHOW_INTERMEDIATE" value="true" />
@@ -29,10 +54,19 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../.." />
+  </component>
+  <component name="ProjectCodeStyleSettingsMigration">
+    <option name="version" value="1" />
+  </component>
   <component name="ProjectId" id="1ShaH4xwoRFqX407hK17sW8JOHP" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors" />
   </component>
   <component name="RecentsManager">
@@ -85,10 +119,22 @@
       <workItem from="1572018192284" duration="1908000" />
       <workItem from="1572192247530" duration="6036000" />
       <workItem from="1572624233826" duration="3254000" />
+      <workItem from="1573766428602" duration="4982000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>

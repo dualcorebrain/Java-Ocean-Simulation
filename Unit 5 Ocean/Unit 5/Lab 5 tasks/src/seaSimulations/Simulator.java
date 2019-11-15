@@ -2,6 +2,7 @@ package seaSimulations;
 
 import javax.crypto.SealedObject;
 import java.awt.*;
+import java.util.*;
 
 public class Simulator {
     private Field field;
@@ -22,6 +23,9 @@ public class Simulator {
         populate();
         startingSimulation();
 
+        RandomGenerator.initialiseWithSeed(10);
+
+
 
 
 
@@ -37,6 +41,8 @@ public class Simulator {
         field.place(planktonContructor, 10,10);
         field.place(sardineContructor, 20,20);
         field.place(sharkContructor, 30,30);
+
+        
 
 
 
@@ -99,4 +105,4 @@ public class Simulator {
 */
 
     }
-}
+
