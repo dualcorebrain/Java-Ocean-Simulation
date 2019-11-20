@@ -1,5 +1,7 @@
 package seaSimulations;
 
+import com.sun.org.apache.xpath.internal.operations.Mod;
+
 import javax.crypto.SealedObject;
 import java.awt.*;
 import java.util.*;
@@ -14,6 +16,14 @@ public class Simulator {
     //
 
     public Simulator(int depth, int width){
+
+        if(depth < 0 && width < 0){
+            depth = ModelContants.DEFAULT_OCEAN_DEPTH;
+            width = ModelContants.DEFAULT_OCEAN_WIDTH;
+
+        }
+
+
         field = new Field(depth, width);
         simulatorViewContructor = new SimulatorView(depth, width);
         simulatorViewContructor.setColor(Plankton.class, Color.red);
@@ -44,17 +54,19 @@ public class Simulator {
 
         for(int row = 0; row<field.getWidth(); row++){
             for(int column = 0; column<field.getDepth(); column++){
+
                 Random rand = RandomGenerator.getRandom();
                 double randomNumber = rand.nextDouble();
-                if(randomNumber<0.05){
+
+                if(randomNumber < ModelContants.SHARK_CREATION_PROBABILITY){
                     field.place(sharkContructor, row, column);
                 }
 
-                else if(randomNumber>0.05 && randomNumber<=0.1){
+                else if(randomNumber > ModelContants.SHARK_CREATION_PROBABILITY && randomNumber <= ModelContants.SARDINE_CREATION_PROBABILITY){
                     field.place(sardineContructor, row,column);
                 }
 
-                else if(randomNumber>0.1 && randomNumber<=0.7) {
+                else if(randomNumber > ModelContants.SARDINE_CREATION_PROBABILITY && randomNumber <= ModelContants.PLANKTON_CREATION_PROBABILITY) {
                     field.place(planktonContructor, row, column);
                 }
 
@@ -68,6 +80,18 @@ public class Simulator {
 
     }
 
+    public void simulate(int steps){
+        int stepCounter = 0;
+        while(stepCounter < steps){
+            simulatorViewContructor.showStatus(steps, field);
+            stepCounter++;
+        }
+
+    }
+
+    public void simulateOneStep(){
+
+    }
 
 
     public void startingSimulation(){
