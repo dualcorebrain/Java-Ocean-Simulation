@@ -2,12 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="676c346b-afe0-4ee0-91ac-c86059ed00aa" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../../../.idea/Java-Ocean-Simulation.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/seaSimulations/ModelContants.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/seaSimulations/ModelContants.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/seaSimulations/Simulator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/seaSimulations/Simulator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Unit 5 Ocean/Unit 5/Lab 5 tasks/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Unit 5 Ocean/Unit 5/Lab 5 tasks/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -108,6 +103,7 @@
       <workItem from="1573819220660" duration="5202000" />
       <workItem from="1574192900079" duration="823000" />
       <workItem from="1574206789028" duration="2561000" />
+      <workItem from="1574210768004" duration="18000" />
     </task>
     <servers />
   </component>
