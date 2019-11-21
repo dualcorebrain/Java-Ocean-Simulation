@@ -1,7 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="676c346b-afe0-4ee0-91ac-c86059ed00aa" name="Default Changelist" comment="" />
+    <list default="true" id="676c346b-afe0-4ee0-91ac-c86059ed00aa" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/seaSimulations/Plankton.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/seaSimulations/Plankton.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/seaSimulations/Sardine.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/seaSimulations/Sardine.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/seaSimulations/Shark.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/seaSimulations/Shark.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/seaSimulations/Simulator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/seaSimulations/Simulator.java" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,7 +51,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors" />
+    <property name="settings.editor.selected.configurable" value="MTConfigurable" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -103,6 +109,7 @@
       <workItem from="1574206789028" duration="2561000" />
       <workItem from="1574210768004" duration="18000" />
       <workItem from="1574211194705" duration="12000" />
+      <workItem from="1574261837068" duration="6397000" />
     </task>
     <servers />
   </component>

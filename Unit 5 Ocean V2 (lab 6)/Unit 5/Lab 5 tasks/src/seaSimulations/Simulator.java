@@ -4,6 +4,7 @@ import com.sun.org.apache.xpath.internal.operations.Mod;
 
 import javax.crypto.SealedObject;
 import java.awt.*;
+import java.lang.reflect.Array;
 import java.util.*;
 
 public class Simulator {
@@ -13,9 +14,14 @@ public class Simulator {
     private Plankton planktonContructor;
     private Sardine sardineContructor;
     private Shark sharkContructor;
+
+    private ArrayList<Creature> creatureArrayList;
+    private int currentStep;
     //
 
     public Simulator(int depth, int width){
+
+        creatureArrayList = new ArrayList<Creature>();
 
         if(depth < 0 && width < 0){
             depth = ModelContants.DEFAULT_OCEAN_DEPTH;
@@ -38,9 +44,6 @@ public class Simulator {
 
 
 
-
-
-
     }
 
     public void populate(){
@@ -59,15 +62,22 @@ public class Simulator {
                 double randomNumber = rand.nextDouble();
 
                 if(randomNumber < ModelContants.SHARK_CREATION_PROBABILITY){
-                    field.place(sharkContructor, row, column);
+                    Shark sharkObjectForArray = new Shark();
+                    field.place(sharkObjectForArray, row, column);
+                    creatureArrayList.add(sharkObjectForArray);
                 }
 
                 else if(randomNumber > ModelContants.SHARK_CREATION_PROBABILITY && randomNumber <= ModelContants.SARDINE_CREATION_PROBABILITY){
-                    field.place(sardineContructor, row,column);
+                    Sardine sardineObjectForArray = new Sardine();
+                    field.place(sardineObjectForArray, row,column);
+                    creatureArrayList.add(sardineObjectForArray);
+
                 }
 
                 else if(randomNumber > ModelContants.SARDINE_CREATION_PROBABILITY && randomNumber <= ModelContants.PLANKTON_CREATION_PROBABILITY) {
-                    field.place(planktonContructor, row, column);
+                    Plankton planktonObjectForArray = new Plankton();
+                    field.place(planktonObjectForArray, row, column);
+                    creatureArrayList.add(planktonObjectForArray);
                 }
 
                 //Up until this point was lab 05 tasks
@@ -90,9 +100,11 @@ public class Simulator {
     }
 
     public void simulateOneStep(){
+        for(Creature creatureIterator : creatureArrayList ){
+            if (creatureIterator instanceof )
 
+        }
     }
-
 
     public void startingSimulation(){
         simulatorViewContructor.showStatus(1, field);
