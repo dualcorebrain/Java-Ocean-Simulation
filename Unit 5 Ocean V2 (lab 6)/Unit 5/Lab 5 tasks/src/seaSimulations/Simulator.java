@@ -92,6 +92,7 @@ public class Simulator {
     public void simulateOneStep() {
         for (Creature creatureIterator : creatureArrayList) {
             creatureIterator.act(field);
+            //random words to push to Git
         }
     }
 
