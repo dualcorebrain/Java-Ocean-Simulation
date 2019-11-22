@@ -2,9 +2,25 @@ package seaSimulations;
 
 public class Sardine extends Fish {
     private Field fieldObject;
-    private Location location;
     private Sardine Sardine;
     private Object Creature;
+    private Location location;
+
+
+
+    public void act(Field theField){
+        theField.place(null, location);
+        Location newLocation = theField.freeAdjacentLocation(location);
+        location = newLocation;
+        theField.place(Sardine, newLocation);
+
+
+
+    }
+
+}
+
+
 
 /*    public  Sardine (){}
 
@@ -18,12 +34,19 @@ public class Sardine extends Fish {
         }
     }*/
 
-    public void act(Field theField, Location currentLocation){
-        theField.freeAdjacentLocation(location);
-        }
-    }
-
-
-
-
+/*    public void setLocation(int row, int col){
+        Location location = new Location(row, col);
 }
+
+    public void act(Field theField){
+    theField.place(null, location);
+        Location newLocation = theField.freeAdjacentLocation(location);
+        location = newLocation;
+        theField.place(Sardine, newLocation);
+        }
+    }*/
+
+
+
+
+
